@@ -8,10 +8,29 @@
     <script src="https://unpkg.com/mocha@8.1.0/mocha.js"></script>
     <script src="https://unpkg.com/chai@4.2.0/chai.js"></script>
     <title>CS633 Mocha-Chi</title>
+    <style>
+      h1, h2 {
+        padding-left: 50px;
+      }
+      h3 {
+        padding-left: 60px;
+      }
+    </style>
 </head>
 <body>
     <section>
-        <h1>Test Results</h1>
+        <h1>CSS 633 Run Mocha tests in browser</h1>
+        <pre>
+          <code>
+            function getRockPaperScissorsWinner(userChoice, computerChoice) {
+              // logic goes here
+              // 3 possible paths (tie, user wins, computer wins)
+              return winner;
+            }
+          </code>
+        </pre>
+        <h2>Test Results</h2>
+        <h3>Please click on a test to see more info..</h3>
         <div id="mocha"></div>
         <script>
             mocha.setup("bdd");
