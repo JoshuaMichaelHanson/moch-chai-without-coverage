@@ -13,13 +13,14 @@ GitHub Codespaces provides a complete, configurable dev environment in the cloud
 
 To use GitHub Codespaces:
 
-1. Navigate to the GitHub repository in your browser
-2. Click on the green "Code" button
-3. Select the "Codespaces" tab
-4. Click on "Create codespace on main"
-5. Wait for the codespace to initialize (this may take a minute)
-6. Once loaded, you'll have a fully configured VS Code environment in your browser
-7. You can run and test the application directly from the codespace
+1. Fork the repository to your personal GitHub account: click the "Fork" button at the top-right of the linked repository page and wait for the fork to be created. Important: do NOT create a Codespace on the original linked project — you must create the Codespace on your own forked repository.
+2. Navigate to your forked GitHub repository in your browser
+3. Click on the green "Code" button
+4. Select the "Codespaces" tab
+5. Click on "Create codespace on main"
+6. Wait for the codespace to initialize (this may take a minute)
+7. Once loaded, you'll have a fully configured VS Code environment in your browser
+8. You can run and test the application directly from the codespace
 
 ### Alternative Method: Clone Repository Locally
 
