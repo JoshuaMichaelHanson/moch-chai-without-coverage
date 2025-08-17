@@ -5,7 +5,7 @@
  * 
  * @param userChoice - 'rock', 'paper', 'scissors'
  * @param computerChoice - 'rock', 'paper', 'scissors'
- * @returns {winner} - 'tie', 'user', 'computer'
+ * @returns {string} - 'tie', 'user', 'computer'
  */
 function getRockPaperScissorsWinner(userChoice, computerChoice) {
   if(userChoice === computerChoice) {
