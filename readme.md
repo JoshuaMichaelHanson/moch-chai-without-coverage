@@ -9,7 +9,7 @@ of our code is covered by tests.
 
 ### Preferred Method: GitHub Codespaces
 
-GitHub Codespaces provides a complete, configurable dev environment in the cloud that works with your GitHub repository. This is the **preferred method** for working with this project as it will make the next assignment easier to complete.
+GitHub Codespaces provide a complete, configurable dev environment in the cloud that works with your GitHub repository. This is the **preferred method** for working with this project as it will make the next assignment easier to complete.
 
 To use GitHub Codespaces:
 
@@ -43,6 +43,7 @@ You can view the app by opening index.html directly in a browser, but for live r
 Using Live Preview (Codespaces or local VS Code)
 1. Open the project in VS Code (in Codespaces this is the environment that opens after creating your codespace; locally open the repository folder).
 2. Install the Live Preview extension:
+   - You can skip this step if using GitHub Codespaces as it will be installed automatically via the devcontainer.json file 
    - Open the Extensions view (click the square icon in the Activity Bar or press Ctrl+Shift+X).
    - Search for "Live Preview (Microsoft)" and select the extension published by Microsoft.
    - Click "Install".
